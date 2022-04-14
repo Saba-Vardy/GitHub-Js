@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Roboto Condensed', sans-serif;  letter-spacing: 5px;
+  font-size: 28px;
+  color: white;
+}
+.calculator {
+  width: 465px;
+  padding: 20px;
+  margin: 55px auto;
+  border-radius: 1px;
+  transition: all 0.2s;
+  color: black;
+  
+}
+.calculator:hover {
+  box-shadow: 0px 0px 18px  black;
+
+}
+
+.input {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  font-size: 38px;
+  color: white;
+}
+.mimateba-gamokleba div {
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+  padding: 11px;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 20px;
+}
+.zedasami {
+  display: inline-block;
+}
+.number div {
+  display: inline-block;
+  width: 82px;
+  text-align: center;
+  padding: 11px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: white;
+}
+
+.toloba {
+  display: inline-block;
+  border: 1px solid #094ab3;
+  border-radius: 1px;
+  width: 80px;
+  vertical-align: top;
+  text-align: center;
+  padding: 124px 11px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #2b7afa;
+}
+
